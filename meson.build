@@ -1,10 +1,10 @@
-project('xserver', 'c',
+project('xfront-server', 'c',
         default_options: [
             'buildtype=debugoptimized',
             'c_std=gnu99',
             'warning_level=1',
         ],
-        version: '25.2.0',
+        version: '69.1.0',
         meson_version: '>= 0.61.0',
 )
 release_date = '2026-06-21'
